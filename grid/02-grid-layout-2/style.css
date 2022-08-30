@@ -5,7 +5,10 @@ body, html {
 
 .container {
   text-align: center;
-  height: 100%;
+  display: grid;
+  gap: 15px;
+  grid-template: 1fr 1fr 3fr 1fr / 1fr 3fr;
+  height: 100vh;
   padding: 16px;
   box-sizing: border-box;
 }
